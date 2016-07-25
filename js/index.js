@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-  $('input').animate({
+  $('input').delay(1000).animate({
     width: "200px",
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
