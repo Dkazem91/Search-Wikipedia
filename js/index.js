@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
 
-  $('input').delay(1000).animate({
+  $('input').delay(2000).animate({
     width: "200px",
     borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
+    borderTopRightRadius: 20
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20
   }, 'slow');
